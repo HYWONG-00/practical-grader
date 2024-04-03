@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AssignmentOne</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <integer-array name="flags_id">
+        <item>@drawable/flag__unknown</item>
+        <item>@drawable/flag_ad</item>
+        <item>@drawable/flag_ae</item>
+        <item>@drawable/flag_af</item>
+        <item>@drawable/flag_ag</item>
+        <item>@drawable/flag_ai</item>
+        <item>@drawable/flag_al</item>
+        <item>@drawable/flag_am</item>
+        <item>@drawable/flag_ar</item>
+        <item>@drawable/flag_at</item>
+        <item>@drawable/flag_au</item>
+        <item>@drawable/flag_az</item>
+        <item>@drawable/flag_ba</item>
+        <item>@drawable/flag_bd</item>
+        <item>@drawable/flag_be</item>
+        <item>@drawable/flag_bf</item>
+        <item>@drawable/flag_bg</item>
+        <item>@drawable/flag_br</item>
+        <item>@drawable/flag_ca</item>
+        <item>@drawable/flag_ch</item>
+        <item>@drawable/flag_cn</item>
+        <item>@drawable/flag_cz</item>
+        <item>@drawable/flag_de</item>
+        <item>@drawable/flag_dk</item>
+        <item>@drawable/flag_es</item>
+        <item>@drawable/flag_fr</item>
+        <item>@drawable/flag_gb</item>
+        <item>@drawable/flag_ge</item>
+        <item>@drawable/flag_gr</item>
+        <item>@drawable/flag_hk</item>
+        <item>@drawable/flag_it</item>
+        <item>@drawable/flag_jp</item>
+        <item>@drawable/flag_kr</item>
+        <item>@drawable/flag_lt</item>
+        <item>@drawable/flag_mx</item>
+        <item>@drawable/flag_my</item>
+        <item>@drawable/flag_nl</item>
+        <item>@drawable/flag_pl</item>
+        <item>@drawable/flag_qa</item>
+        <item>@drawable/flag_ru</item>
+        <item>@drawable/flag_uk</item>
+        <item>@drawable/flag_us</item>
+        <item>@drawable/flag_vn</item>
+    </integer-array>
+
+    <string-array name="flags_name">
+
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/practical_title_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practical 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/practical_instructor_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ins1212"
+        app:layout_constraintEnd_toEndOf="@+id/practical_title_row"
+        app:layout_constraintStart_toStartOf="@+id/practical_title_row"
+        app:layout_constraintTop_toBottomOf="@+id/practical_title_row" />
+
+    <TextView
+        android:id="@+id/practical_description_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile prac 1"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/practical_title_row"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practical_instructor_row" />
+
+    <TextView
+        android:id="@+id/practical_mark_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="85"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

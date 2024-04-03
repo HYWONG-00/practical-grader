@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/green">
+
+            <!-- How to prevent the textview go off the screen
+                https://stackoverflow.com/questions/46350501/android-constraintlayout-textview-go-off-the-screen
+                Add the layconstraintEnd_toEndOf
+                app:layout_constraintEnd_toEndOf="parent"
+                and width 0dp
+                android:layout_width="0dp"
+                Setting width 0dp alone won't work-->
+            <ImageView
+                android:id="@+id/student_country_row"
+                android:layout_width="66dp"
+                android:layout_height="71dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/flag_au" />
+
+            <TextView
+                android:id="@+id/student_name_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Evan Lin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/student_country_row"
+                app:layout_constraintStart_toEndOf="@+id/student_country_row"
+                app:layout_constraintTop_toTopOf="@+id/student_country_row" />
+
+            <TextView
+                android:id="@+id/student_mark_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="85"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/percentage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="30sp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>

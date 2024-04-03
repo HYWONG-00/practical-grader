@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="FUNCTIONS"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aed_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ADD/EDIT/DELETE STUDENT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/aed_instructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD/EDIT/DELETE INSTRUCTOR"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aed_student" />
+
+    <Button
+        android:id="@+id/aed_practical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD/EDIT/DELETE \n PRACTICAL"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aed_instructor" />
+
+    <Button
+        android:id="@+id/mark_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARKING STUDENT"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aed_practical" />
+
+    <Button
+        android:id="@+id/view_instructors_practicals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW INSTRUCTORS/PRACTICALS"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark_student" />
+
+    <Button
+        android:id="@+id/view_students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW STUDENTS"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_instructors_practicals" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
